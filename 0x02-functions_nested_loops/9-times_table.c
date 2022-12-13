@@ -3,14 +3,14 @@
 /**
  * times_table - program to print times table up to 9
  *
- * Return: 0 (Success)
+ * Return: 0 (success)
  */
 
 void times_table(void)
 {
 	int i, j, prod;
 
-	for (i = 0; i < 10; 1++)
+	for (i = 0; i < 10; i++)
 	{
 		_putchar(48);
 		for (j = 1; j < 10; j++)
