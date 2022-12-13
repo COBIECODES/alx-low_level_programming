@@ -6,7 +6,7 @@
  * Return: 0 (Success)
  */
 
-void times_tables(void)
+void times_table(void)
 {
 	int i, j, prod;
 
