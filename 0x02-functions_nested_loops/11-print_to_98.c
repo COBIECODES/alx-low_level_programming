@@ -2,7 +2,7 @@
 
 /**
  * print_to_98 - prints all natural numbers available from
- * n to 98, separated by comma and space. (in order)
+ * n to 98, separated by comma and space. (In order)
  *
  * @n: input number
  *
@@ -10,7 +10,6 @@
  */
 
 void print_to_98(int n)
-
 {
 	int num;
 
