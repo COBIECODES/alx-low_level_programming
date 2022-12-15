@@ -3,7 +3,7 @@
 /**
  * print_number - a function that prints an integer.
  * @n: An input integer
- * Return: Always 0
+ * Return: Nothing
  */
 void print _number(int n)
 {
@@ -13,7 +13,8 @@ void print _number(int n)
 	{
 		n1 = -n;
 		_putchar('-');
-	} else
+	}
+       	else
 	{
 		n1 = n;
 	}
@@ -24,4 +25,5 @@ void print _number(int n)
 	}
 
 	_putchar((n1 % 10) + '0');
+
 }
