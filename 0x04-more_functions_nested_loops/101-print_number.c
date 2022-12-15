@@ -5,7 +5,7 @@
  * @n: An input integer
  * Return: Nothing
  */
-void print _number(int n)
+void print_number(int n)
 {
 	unsigned int n1;
 
@@ -13,8 +13,7 @@ void print _number(int n)
 	{
 		n1 = -n;
 		_putchar('-');
-	}
-       	else
+	}	else
 	{
 		n1 = n;
 	}
