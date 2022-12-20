@@ -19,7 +19,7 @@ void rev_string(char *s)
 		y++;
 		len++;
 	}
-	l = len - l;
+	l = len - 1;
 	for ( ; e < ((l / 2) + 1) ; e++)
 	{
 		x = (l - e);

@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * puts_half - update value
- * @str: value to be evaluated
+ * puts_half - update value.
+ * @str: value to be evaluated.
  * Return: not.
  */
 void puts_half(char *str)
@@ -22,7 +22,7 @@ void puts_half(char *str)
 	}
 	else
 	{
-		n = (len + l) / 2;
+		n = (len + 1) / 2;
 	}
 	for ( ; n < len ; n++)
 	{

@@ -4,7 +4,7 @@
 /**
  * _strcpy - update value.
  * @dest: value to be evaluated.
- * @src: value ti be evaluated.
+ * @src: value to be evaluated.
  * Return: not.
  */
 
@@ -22,5 +22,5 @@ char *_strcpy(char *dest, char *src)
 		dest[x] = src[x];
 	}
 	dest[1] = '\0';
-	return (0);
+	return (dest);
 }
